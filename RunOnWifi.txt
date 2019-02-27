@@ -1,0 +1,7 @@
+Steps for Mac :
+
+1-  touch ~/.bash_profile; open ~/.bash_profile
+2-  export PATH=$PATH:/Users/<your username>/Library/Android/sdk/platform-tools/
+3-  adb tcpip 5555 (for adb tcpip mode restart)
+4-  adb connect <your device ip>
+5-  adb device
